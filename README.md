@@ -9,8 +9,9 @@ This project aims to develop a machine learning model and web application for ac
 3. [Models Used](#models-used)
 4. [Evaluation Metrics](#evaluation-metrics)
 5. [Stacking Ensemble Method](#stacking-ensemble-method)
-6. [Installation](#installation)
-7. [Real-World Impact](#real-world-impact)
+6. [Real-World Impact](#real-world-impact)
+7. [Installation](#installation)
+
 
 ## Introduction
 Autism Spectrum Disorder (ASD) is a neurodevelopmental disorder that impacts an individual's ability to interact, communicate, and learn. ASD encompasses various conditions marked by challenges in social interaction, behavior, speech, and nonverbal communication.
@@ -51,12 +52,11 @@ Stacking is an ensemble learning method where:
 - A Random Forest classifier is used as the meta-learner.
 - Predictions from the base models are transposed and used as input for the meta-learner to predict the final outcome.
 
+## Real World Impact
+This `README.md` file provides a clear and comprehensive explanation of the project, the models used, and how to run the code. Feel free to adjust it according to your project's specifics or additional requirements.
+
+
 ## Installation
 To set up the environment, clone this repository and install the required dependencies using:
 ```bash
 pip install -r requirements.txt
-
-
-
-## Real World Impact
-This `README.md` file provides a clear and comprehensive explanation of the project, the models used, and how to run the code. Feel free to adjust it according to your project's specifics or additional requirements.
